@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Common*/
+/*Altezze*/
+.ms_h-80{
+    height: 80px;
+}
+.ms_h-400{
+    height: 400px;
+}
+.ms_h-300{
+    height: 300px;
+}
+/*Fine altezze*/
+/*Margini*/
+.ms_mr-5 {
+    margin-right: 5px;
+}
+.ms_mr-15 {
+    margin-right: 15px;
+}
+.ms_mt-80{
+    margin-top: 80px;
+}
+.ms_mt-40{
+    margin-top: 40px;
+}
+/*Margini*/
+/*Fine common*/
+
+/*Section header*/
+header {
+    background-color: rgb(44, 62, 80);
+    height: 80px;
+}
+
+
+/*Fine Section header*/
+
+/*Main*/
+/*Section start-bootstrap*/
+#start {
+    background-color: rgb(26, 188, 156);
+    height: 400px;
+}
+#start .start-top {
+    height: 55%;
+}
+.start-top > div {
+    width: 130px;
+    height: 130px;
+    background-color: greenyellow;
+}
+#start .start-bottom {
+    height: 45%;
+}
+.start-bottom > div:nth-child(1) {
+    width: 100%;
+    height: calc((100% / 4) *2);
+    background-color: greenyellow;
+}
+.start-bottom > div:nth-child(2), .start-bottom > div:nth-child(3)  {
+    width: 100%;
+    height: calc((100% / 4) *1);
+    background-color: red;
+}
+/*Fine section start-bootstrap*/
+/*Portfolio*/
+
+
+.portfolio-top > div:nth-child(1) {
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.portfolio-top > div:nth-child(2) {
+    width: 100%;
+    height: 30px;
+    background-color: yellow;
+}
+
+.portfolio-bottom  .portfolio-items {
+    width: 100%;
+    height: 200px;
+    background-color: violet;
+}
+/*Fine portfolio*/
+/*Section About*/
+#about {
+    background-color: rgb(26, 188, 156);
+}
+.about-top > div:nth-child(1) {
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.about-top > div:nth-child(2) {
+    width: 100%;
+    height: 30px;
+    background-color: yellow;
+}
+
+.about-bottom  .about-items {
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+}
+/*Fine section about*/
+
+/*Section contact*/
+#contact {
+    height: 400px;
+}
+.contact-top {
+    height: calc((100% / 4) *1);
+    background-color: greenyellow;
+}
+.contact-bottom {
+    height: calc((100% / 4) *3);
+    background-color: red;
+}
+/*Fine section contact*/
+/*Fine Main*/
+
+/*Footer*/
+#footer {
+    background-color: rgb(58, 84, 109);
+}
+
+/*Fine footer*/
+
+
+
