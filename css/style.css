@@ -41,7 +41,7 @@ header ul > li {
     list-style-type: none;
     margin-right: 15px;
 }
-.ms_hamburger {
+header ul > ul {
     display: none;
 }
 /*Fine Section header*/
@@ -104,6 +104,20 @@ header ul > li {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px 10px;
 }
+.portfolio-bottom .portfolio-items > i {
+    display: none;
+
+}
+.portfolio-bottom .portfolio-items:hover > i {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
 
 /*Fine portfolio*/
 /*Section About*/
@@ -142,6 +156,15 @@ header ul > li {
 /*Fine footer*/
 
 /*Media quary*/
-
+@media screen and (min-width: 400px) {
+    .ms_hamburger{
+        display: block;
+    }
+}
+@media screen and (max-width: 500px) {
+    .nav-complete {
+        display: none;
+    }
+}
 /*Fine media quary*/
 
